@@ -1,0 +1,7 @@
+.todos{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}

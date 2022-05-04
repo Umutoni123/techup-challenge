@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@0,100;0,500;1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+#input{
+    width: 100%;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+.container{
+    width:65vw;
+    height: 50vw;
+    margin:60px auto;
+    background-color:white;
+    padding:1rem 2rem ;
+    color: rgb(51, 49, 49);
+}
+.content{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.content h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.min-content{
+    display: flex;
+    margin-top: 20px;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+.form-container form input{
+    background-color: transparent;
+    color: white;
+    
+}
+
+.description {
+    border-left: 0.4px solid rgb(157, 156, 156);
+    padding-left: 25px;
+    width: 50%;
+}
+.description p:first-of-type{
+    font-weight: 500;
+    font-size: 40px;
+}
+.description p:last-of-type{
+    padding-bottom: 20px;
+}
+.names{
+    display: flex;
+    
+}
+input{
+    
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid gray ;
+    padding: 5px 0;
+}
+input:focus{
+    outline: none;
+}
+.names input:first-of-type{
+    margin-right: 20px;
+}
+.names input{
+    border: none;
+    
+    border-bottom: 2px solid gray ;
+    padding: 5px 0;
+    flex-grow: 1;
+}
+
+form button{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin:16px 0;
+    padding: 15px;
+    background-color: #5d6faa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+span{
+    cursor: pointer;
+}
+.header{
+    position: absolute;
+    background-color: #5d6faa;
+    border-radius: 50%;
+    color:white;
+    padding: 15px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
